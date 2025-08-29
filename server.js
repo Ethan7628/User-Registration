@@ -57,6 +57,7 @@ app.get('/users', async (req, res) => {
   }
 });
 
+
 // Serve frontend for all other routes (React Router support)
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'index.html'));

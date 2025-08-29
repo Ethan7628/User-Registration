@@ -6,3 +6,4 @@ Dockerfile
 .dockerignore
 .env
 *.log
+

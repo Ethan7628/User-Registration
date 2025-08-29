@@ -12,6 +12,7 @@ const connection = mysql.createPool({
   queueLimit: 0
 });
 
+
 connection.getConnection()
   .then(() => console.log('✅ Connected to MySQL on Railway'))
   .catch(err => console.error('❌ MySQL connection failed:', err));
